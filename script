@@ -1,0 +1,4 @@
+let btcPrice = prompt(`What is Bitcoin price today?  `, 20776);
+let avalibleMoney = prompt(`How much $ do you have?  `, 1);
+let youCanBuy = avalibleMoney / btcPrice;
+alert('You can buy  ' + youCanBuy + '  BTC');
